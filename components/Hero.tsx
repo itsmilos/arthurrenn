@@ -261,7 +261,7 @@ export default function Hero() {
           className="relative z-20 flex flex-col items-center text-center"
         >
           <p className="max-w-xl text-[13px] leading-6 text-[#b9b4aa]/55 md:text-[14px]">
-            Arthur Renn spent years questioning the systems, beliefs, and
+            Weston Renn spent years questioning the systems, beliefs, and
             invisible forces that shape the way we see the world.
           </p>
 

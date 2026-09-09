@@ -256,8 +256,8 @@ export default function RealityManifesto() {
 
           <p className="mx-auto mt-10 max-w-2xl text-[14px] leading-7 text-white/35 md:text-[15px]">
             Reality Before the Script is an exploration of what exists beneath
-            the stories we are given — and what happens when you begin
-            questioning the script itself.
+            the stories we are given and what happens when you begin questioning
+            the script itself.
           </p>
         </motion.div>
       </div>

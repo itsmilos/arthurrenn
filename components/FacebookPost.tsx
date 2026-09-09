@@ -242,7 +242,7 @@ export default function FacebookPost() {
                 </p>
 
                 <p className="mt-1 font-serif text-sm text-[#c8b89a]">
-                  Arthur Renn
+                  Weston Renn
                 </p>
               </div>
 
@@ -280,7 +280,7 @@ export default function FacebookPost() {
 
         <div className="px-6">
           <p className="text-[8px] uppercase tracking-[0.5em] text-[#625e55]">
-            Arthur Renn · Reality Before The Script
+            Weston Renn · Reality Before The Script
           </p>
         </div>
 

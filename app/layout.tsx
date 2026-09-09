@@ -20,28 +20,33 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
 
   title: {
-    default: "Reality Before The Script - Arthur Renn",
-    template: "%s - Arthur Renn",
+    default: "Reality Before The Script - Weston Renn",
+    template: "%s - Weston Renn",
   },
 
   description:
-    "Reality Before The Script by Arthur Renn explores perception, belief, influence, consciousness, human behavior, and the invisible structures shaping the reality we experience.",
+    "Reality Before The Script by Weston Renn explores perception, belief, influence, consciousness, human behavior, and the invisible structures shaping the reality we experience.",
 
   applicationName: "Reality Before The Script",
 
   authors: [
     {
-      name: "Arthur Renn",
+      name: "Weston Renn",
       url: siteUrl,
     },
   ],
 
-  creator: "Arthur Renn",
-  publisher: "Arthur Renn",
+  creator: "Weston Renn",
+  publisher: "Weston Renn",
 
   keywords: [
     "Reality Before The Script",
-    "Arthur Renn",
+    "Weston Renn",
+    "money",
+    "influence",
+    "perception",
+    "belief",
+    "consciousness",
     "psychology",
     "human behavior",
     "consciousness",
@@ -79,24 +84,24 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: siteUrl,
     siteName: "Reality Before The Script",
-    title: "Reality Before The Script -Arthur Renn",
+    title: "Reality Before The Script - Weston Renn",
     description:
-      "What if the reality you know was never the whole story? Discover Reality Before The Script by Arthur Renn.",
+      "What if the reality you know was never the whole story? Discover Reality Before The Script by Weston Renn.",
     images: [
       {
         url: "/og-image.webp",
         width: 1200,
         height: 630,
-        alt: "Reality Before The Script - Arthur Renn",
+        alt: "Reality Before The Script - Weston Renn",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Reality Before The Script — Arthur Renn",
+    title: "Reality Before The Script — Weston Renn",
     description: "What if the reality you know was never the whole story?",
-    images: ["/og-image.jpg"],
+    images: ["/og-image.webp"],
   },
 
   icons: {

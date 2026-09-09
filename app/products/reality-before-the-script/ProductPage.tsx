@@ -35,7 +35,7 @@ export default function ProductPage() {
   return (
     <>
       <Script
-        src="https://gumroad.com/js/gumroad.js"
+        src="https://westonrenn.gumroad.com/l/fctjs"
         strategy="afterInteractive"
       />
 
@@ -260,7 +260,7 @@ export default function ProductPage() {
             className="mx-auto mt-16 max-w-4xl text-center"
           >
             <p className="text-[9px] uppercase tracking-[0.4em] text-[#77736b]">
-              Arthur Renn
+              Weston Renn
             </p>
 
             <h1 className="mt-4 font-serif text-[48px] leading-[0.92] tracking-[-0.05em] text-[#eeeae2] sm:text-[64px] lg:text-[82px]">
@@ -315,7 +315,7 @@ export default function ProductPage() {
             </div>
 
             <a
-              href="https://arhurrenn.gumroad.com/l/fctjs"
+              href="https://westonrenn.gumroad.com/l/fctjs"
               className="gumroad-button group relative mt-8 flex w-full items-center justify-center overflow-hidden border border-[#c8b89a]/60 bg-[#a89577] px-7 py-5 text-[9px] font-semibold uppercase tracking-[0.3em] text-[#0b0b0a] transition-all duration-500 hover:-translate-y-1 hover:bg-[#c8b89a] hover:shadow-[0_20px_60px_rgba(168,149,119,0.22)]"
             >
               <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent transition-transform duration-700 group-hover:translate-x-full" />

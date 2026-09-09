@@ -79,7 +79,7 @@ export default function Footer() {
           <div>
             <div className="mb-6">
               <p className="font-serif text-[30px] tracking-[-0.04em]">
-                Arthur Renn
+                Weston Renn
               </p>
 
               <p className="mt-2 text-[8px] uppercase tracking-[0.35em] text-[#706c65]">
@@ -130,7 +130,7 @@ export default function Footer() {
             </p>
 
             <p className="mt-4 text-[10px] uppercase tracking-[0.25em] text-[#68645d]">
-              Arthur Renn
+              Weston Renn
             </p>
 
             <a
@@ -146,7 +146,7 @@ export default function Footer() {
         <div className="flex flex-col gap-6 py-7 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-5">
             <span className="text-[8px] uppercase tracking-[0.28em] text-[#57544f]">
-              © {new Date().getFullYear()} Arthur Renn
+              © {new Date().getFullYear()} Weston Renn
             </span>
 
             <span className="hidden h-3 w-px bg-white/[0.08] sm:block" />

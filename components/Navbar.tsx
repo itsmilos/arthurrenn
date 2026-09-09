@@ -6,7 +6,7 @@ export default function Navbar() {
       <header className="flex h-24 items-center justify-between">
         <Link href="/" className="group">
           <div className="font-serif text-xl tracking-[0.25em] text-[#eeeae2] transition group-hover:text-white">
-            Arthur Renn
+            Weston Renn
           </div>
 
           <div className="mt-1 text-[9px] tracking-[0.42em] text-[#a89577]">

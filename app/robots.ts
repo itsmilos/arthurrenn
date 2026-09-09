@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
       disallow: ["/api/", "/admin/"],
     },
 
-    sitemap: "https://jonasriven.com/sitemap.xml",
+    sitemap: "https://westonrenn.com/sitemap.xml",
   };
 }

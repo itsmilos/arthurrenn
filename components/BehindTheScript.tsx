@@ -288,7 +288,7 @@ export default function TruthBehindScript() {
                 <div className="relative overflow-hidden">
                   <img
                     src="/ebook2.webp"
-                    alt="Reality Before The Script by Arthur Renn"
+                    alt="Reality Before The Script by Weston Renn"
                     className="block h-auto w-full"
                   />
 

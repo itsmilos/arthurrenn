@@ -50,14 +50,11 @@ export default function BookChapters() {
     offset: ["start end", "end start"],
   });
 
-  const backgroundY = useTransform(scrollYProgress, [0, 1], ["-8%", "8%"]);
-
   return (
     <section
       ref={sectionRef}
       className="relative overflow-hidden bg-[#0b0b0a] text-[#eeeae2]"
     >
-      {/* Background */}
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute left-1/2 top-[20%] h-[500px] w-[500px] -translate-x-1/2 rounded-full bg-[#a89577]/[0.025] blur-[150px]" />
 
@@ -71,10 +68,8 @@ export default function BookChapters() {
         />
       </div>
 
-      {/* INTRO */}
       <div className="relative mx-auto max-w-7xl px-5 pb-16 pt-24 sm:px-8 sm:pb-20 lg:px-16 lg:pb-24 lg:pt-32">
         <div className="grid items-end gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">
-          {/* Left */}
           <div>
             <div className="mb-6 flex items-center gap-3">
               <span className="h-px w-8 bg-[#a89577]" />
@@ -93,7 +88,6 @@ export default function BookChapters() {
             </h2>
           </div>
 
-          {/* Right */}
           <div className="max-w-xl lg:pb-1">
             <p className="mb-4 text-[9px] uppercase tracking-[0.35em] text-[#77736b]">
               Reality Before The Script
@@ -126,7 +120,6 @@ export default function BookChapters() {
         </div>
       </div>
 
-      {/* CHAPTER LIST */}
       <div className="relative mx-auto max-w-7xl px-5 pb-20 sm:px-8 lg:px-16 lg:pb-28">
         <div className="border-t border-white/[0.09]">
           {chapters.map((chapter, index) => (
@@ -135,7 +128,6 @@ export default function BookChapters() {
         </div>
       </div>
 
-      {/* END */}
       <div className="relative mx-auto max-w-5xl px-5 pb-28 pt-12 text-center sm:px-8 lg:pb-40 lg:pt-20">
         <div className="mb-7 flex items-center justify-center gap-3">
           <span className="h-px w-8 bg-[#a89577]/40" />

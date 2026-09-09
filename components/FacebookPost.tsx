@@ -27,10 +27,6 @@ export default function FacebookPost() {
 
   return (
     <section className="relative overflow-hidden bg-[#0b0b0a] py-20 text-[#eeeae2] lg:py-32">
-      {/* =========================================================
-          ATMOSPHERE
-      ========================================================== */}
-
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
         <div className="absolute left-1/2 top-0 hidden -translate-x-1/2 select-none font-serif text-[170px] uppercase tracking-[0.18em] text-white/[0.018] lg:block xl:text-[220px]">
           WITNESS
@@ -45,15 +41,7 @@ export default function FacebookPost() {
         <div className="absolute right-[8%] top-0 h-full w-px bg-white/[0.025]" />
       </div>
 
-      {/* =========================================================
-          CONTENT
-      ========================================================== */}
-
       <div className="relative mx-auto grid max-w-[1280px] items-center gap-14 px-5 lg:grid-cols-[0.82fr_1.18fr] lg:gap-20 lg:px-8">
-        {/* =======================================================
-            BOOK
-        ======================================================== */}
-
         <div className="relative mx-auto flex w-full max-w-[430px] items-center justify-center">
           <div className="pointer-events-none absolute left-1/2 top-1/2 h-[80%] w-[75%] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#a89577]/10 blur-[110px]" />
 
@@ -102,10 +90,6 @@ export default function FacebookPost() {
           </motion.div>
         </div>
 
-        {/* =======================================================
-            READER ACCOUNT
-        ======================================================== */}
-
         <motion.div
           initial={{ opacity: 0, x: 35 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -116,15 +100,9 @@ export default function FacebookPost() {
           }}
           className="relative overflow-hidden border border-[#a89577]/20 bg-[#151513]/90 shadow-[0_35px_120px_rgba(0,0,0,0.65)] backdrop-blur-xl"
         >
-          {/* left accent */}
-
           <div className="pointer-events-none absolute left-0 top-0 h-full w-[2px] bg-gradient-to-b from-transparent via-[#a89577]/70 to-transparent" />
 
           <div className="p-6 sm:p-8 lg:p-10">
-            {/* ===================================================
-                HEADER
-            ==================================================== */}
-
             <div className="flex items-center justify-between border-b border-white/[0.06] pb-6">
               <div className="flex items-center gap-4">
                 <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-[#a89577]/30 bg-[#a89577]/[0.07]">
@@ -147,10 +125,6 @@ export default function FacebookPost() {
               </span>
             </div>
 
-            {/* ===================================================
-                TITLE
-            ==================================================== */}
-
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -161,21 +135,13 @@ export default function FacebookPost() {
               I finished this book with more questions than answers.
             </motion.h2>
 
-            {/* divider */}
-
             <div className="mt-7 flex items-center gap-3">
               <span className="h-px w-12 bg-[#a89577]" />
               <span className="h-px w-2 bg-[#a89577]/40" />
               <span className="h-px w-2 bg-[#a89577]/20" />
             </div>
 
-            {/* ===================================================
-                TEXT + CUSTOM SCROLLBAR
-            ==================================================== */}
-
             <div className="relative mt-8">
-              {/* SCROLL AREA */}
-
               <div
                 ref={scrollRef}
                 onScroll={handleScroll}
@@ -253,14 +219,8 @@ export default function FacebookPost() {
                   difficult to unsee.
                 </p>
 
-                {/* extra bottom space so last paragraph can breathe */}
-
                 <div className="h-8" />
               </div>
-
-              {/* =================================================
-                  CUSTOM SCROLLBAR
-              ================================================== */}
 
               <div className="pointer-events-none absolute right-0 top-0 h-full w-[3px] rounded-full bg-white/[0.05]">
                 <div
@@ -273,15 +233,7 @@ export default function FacebookPost() {
               </div>
             </div>
 
-            {/* ===================================================
-                FADE
-            ==================================================== */}
-
             <div className="pointer-events-none absolute bottom-[105px] left-0 h-36 w-full bg-gradient-to-t from-[#151513] via-[#151513]/90 to-transparent" />
-
-            {/* ===================================================
-                AUTHOR
-            ==================================================== */}
 
             <div className="relative z-10 mt-7 flex items-center justify-between border-t border-white/[0.06] pt-6">
               <div>
@@ -305,10 +257,6 @@ export default function FacebookPost() {
               </div>
             </div>
 
-            {/* ===================================================
-                CTA
-            ==================================================== */}
-
             <Link
               href="/products/reality-before-the-script"
               className="group relative z-10 mt-7 flex w-full items-center justify-center gap-3 overflow-hidden border border-[#a89577]/50 bg-[#a89577] py-4 text-[10px] font-semibold uppercase tracking-[0.25em] text-[#0b0b0a] transition-all duration-500 hover:bg-[#c8b89a] hover:shadow-[0_15px_50px_rgba(168,149,119,0.18)] lg:py-5 lg:text-[11px]"
@@ -326,10 +274,6 @@ export default function FacebookPost() {
           </div>
         </motion.div>
       </div>
-
-      {/* =========================================================
-          BOTTOM LABEL
-      ========================================================== */}
 
       <div className="relative mx-auto mt-16 flex max-w-[1280px] items-center justify-between px-5 lg:mt-24 lg:px-8">
         <div className="h-px flex-1 bg-white/[0.06]" />

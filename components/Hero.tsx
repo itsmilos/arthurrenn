@@ -42,80 +42,16 @@ export default function Hero() {
       className="relative min-h-screen overflow-hidden bg-[#0b0b0a] text-[#eeeae2]"
     >
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
-        {/* Main warm glow */}
         <div className="absolute left-1/2 top-[-18%] h-[850px] w-[850px] -translate-x-1/2 rounded-full bg-[#b09a76]/[0.055] blur-[180px]" />
 
-        {/* Bottom glow */}
         <div className="absolute bottom-[-25%] left-1/2 h-[650px] w-[900px] -translate-x-1/2 rounded-full bg-[#8f8069]/[0.045] blur-[180px]" />
 
-        {/* Small side glow */}
         <div className="absolute left-[-10%] top-[40%] h-[400px] w-[400px] rounded-full bg-[#d8d1c5]/[0.025] blur-[150px]" />
 
-        {/* Vignette */}
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_20%,rgba(11,11,10,0.3)_55%,rgba(11,11,10,0.96)_100%)]" />
 
-        {/* Top / bottom fade */}
         <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-[#0b0b0a] to-transparent" />
         <div className="absolute inset-x-0 bottom-0 h-48 bg-gradient-to-t from-[#0b0b0a] to-transparent" />
-      </div>
-
-      <div className="relative z-30 mx-auto max-w-7xl px-6 md:px-10 lg:px-16">
-        <header className="flex h-24 items-center justify-between">
-          <Link href="/" className="group">
-            <div className="font-serif text-xl tracking-[0.25em] text-[#eeeae2] transition group-hover:text-white">
-              REALITY
-            </div>
-
-            <div className="mt-1 text-[9px] tracking-[0.42em] text-[#a89577]">
-              BEFORE THE SCRIPT
-            </div>
-          </Link>
-
-          <nav className="hidden items-center gap-10 md:flex">
-            <Link
-              href="#home"
-              className="relative text-[10px] uppercase tracking-[0.25em] text-[#c4b8a2]"
-            >
-              Home
-              <span className="absolute -bottom-3 left-0 h-px w-full bg-[#a89577]" />
-            </Link>
-
-            <Link
-              href="#about"
-              className="text-[10px] uppercase tracking-[0.25em] text-white/35 transition hover:text-[#eeeae2]"
-            >
-              About
-            </Link>
-
-            <Link
-              href="#chapters"
-              className="text-[10px] uppercase tracking-[0.25em] text-white/35 transition hover:text-[#eeeae2]"
-            >
-              Chapters
-            </Link>
-
-            <Link
-              href="#reviews"
-              className="text-[10px] uppercase tracking-[0.25em] text-white/35 transition hover:text-[#eeeae2]"
-            >
-              Reviews
-            </Link>
-          </nav>
-
-          <Link
-            href="#buy"
-            className="hidden rounded-full border border-[#c8b89a]/15 bg-white/[0.035] px-7 py-3 text-[10px] uppercase tracking-[0.22em] text-[#eeeae2] backdrop-blur-md transition duration-300 hover:border-[#c8b89a]/40 hover:bg-[#c8b89a]/[0.07] md:block"
-          >
-            Get The Book
-          </Link>
-
-          <Link
-            href="#buy"
-            className="rounded-full border border-[#c8b89a]/15 bg-white/[0.035] px-5 py-2.5 text-[10px] uppercase tracking-[0.18em] text-[#eeeae2] md:hidden"
-          >
-            Buy
-          </Link>
-        </header>
       </div>
 
       <div className="relative z-10 mx-auto flex min-h-[calc(100vh-6rem)] max-w-7xl flex-col items-center px-6 pb-16 pt-8 md:px-10 lg:px-16">
@@ -374,7 +310,7 @@ export default function Hero() {
             />
 
             <Link
-              href="#buy"
+              href="/products/reality-before-the-script"
               className="group relative flex items-center gap-5 rounded-full border border-[#c8b89a]/15 bg-[#151513] px-8 py-4 text-[10px] font-semibold uppercase tracking-[0.25em] text-[#eeeae2] shadow-[0_15px_50px_rgba(0,0,0,0.5)] transition-all duration-500 hover:border-[#c8b89a]/30 hover:bg-[#1b1a17]"
             >
               <span>Enter The Reality</span>

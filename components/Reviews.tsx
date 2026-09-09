@@ -32,7 +32,10 @@ const reviews = [
 
 export default function Reviews() {
   return (
-    <section className="relative overflow-hidden bg-[#eeeae2] text-[#0b0b0a]">
+    <section
+      id="reviews"
+      className="relative overflow-hidden bg-[#eeeae2] text-[#0b0b0a]"
+    >
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute right-[-180px] top-[10%] h-[500px] w-[500px] rounded-full bg-[#a89577]/[0.10] blur-[150px]" />
 

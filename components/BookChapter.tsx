@@ -198,54 +198,56 @@ function Chapter({
   const numberY = useTransform(scrollYProgress, [0, 1], [25, -25]);
 
   return (
-    <motion.div
-      ref={ref}
-      style={{ opacity }}
-      className="group relative border-b border-white/[0.09]"
-    >
-      <div className="relative overflow-hidden">
-        <motion.div
-          style={{ y: numberY }}
-          className="pointer-events-none absolute right-[-5px] top-1/2 -translate-y-1/2 select-none font-serif text-[150px] font-light leading-none tracking-[-0.08em] text-white/[0.025] sm:right-0 sm:text-[220px] lg:text-[300px]"
-        >
-          {chapter.number}
-        </motion.div>
+    <section id="chapters">
+      <motion.div
+        ref={ref}
+        style={{ opacity }}
+        className="group relative border-b border-white/[0.09]"
+      >
+        <div className="relative overflow-hidden">
+          <motion.div
+            style={{ y: numberY }}
+            className="pointer-events-none absolute right-[-5px] top-1/2 -translate-y-1/2 select-none font-serif text-[150px] font-light leading-none tracking-[-0.08em] text-white/[0.025] sm:right-0 sm:text-[220px] lg:text-[300px]"
+          >
+            {chapter.number}
+          </motion.div>
 
-        <motion.div
-          style={{ x }}
-          className="relative grid gap-6 py-9 sm:py-11 lg:grid-cols-[90px_1fr_280px] lg:items-center lg:gap-12 lg:py-14"
-        >
-          <div className="flex items-center gap-3 lg:block">
-            <span className="font-serif text-[25px] font-light text-[#a89577] sm:text-[28px]">
-              {chapter.number}
-            </span>
+          <motion.div
+            style={{ x }}
+            className="relative grid gap-6 py-9 sm:py-11 lg:grid-cols-[90px_1fr_280px] lg:items-center lg:gap-12 lg:py-14"
+          >
+            <div className="flex items-center gap-3 lg:block">
+              <span className="font-serif text-[25px] font-light text-[#a89577] sm:text-[28px]">
+                {chapter.number}
+              </span>
 
-            <span className="h-px w-7 bg-[#a89577]/30 lg:mt-4 lg:block" />
+              <span className="h-px w-7 bg-[#a89577]/30 lg:mt-4 lg:block" />
 
-            <span className="text-[8px] uppercase tracking-[0.3em] text-[#5d5953] lg:mt-3 lg:block">
-              Chapter
-            </span>
-          </div>
-
-          <div className="max-w-3xl">
-            <div className="mb-3 flex items-center gap-3">
-              <span className="text-[8px] uppercase tracking-[0.32em] text-[#77736b]">
-                {chapter.keyword}
+              <span className="text-[8px] uppercase tracking-[0.3em] text-[#5d5953] lg:mt-3 lg:block">
+                Chapter
               </span>
             </div>
 
-            <h3 className="max-w-3xl font-serif text-[31px] leading-[1.02] tracking-[-0.035em] text-[#e5dfd4] transition-colors duration-500 group-hover:text-[#c8b89a] sm:text-[39px] md:text-[46px] lg:text-[53px]">
-              {chapter.title}
-            </h3>
-          </div>
+            <div className="max-w-3xl">
+              <div className="mb-3 flex items-center gap-3">
+                <span className="text-[8px] uppercase tracking-[0.32em] text-[#77736b]">
+                  {chapter.keyword}
+                </span>
+              </div>
 
-          <div className="max-w-sm lg:justify-self-end">
-            <p className="text-[13px] leading-[1.8] text-[#858179] sm:text-[14px]">
-              {chapter.description}
-            </p>
-          </div>
-        </motion.div>
-      </div>
-    </motion.div>
+              <h3 className="max-w-3xl font-serif text-[31px] leading-[1.02] tracking-[-0.035em] text-[#e5dfd4] transition-colors duration-500 group-hover:text-[#c8b89a] sm:text-[39px] md:text-[46px] lg:text-[53px]">
+                {chapter.title}
+              </h3>
+            </div>
+
+            <div className="max-w-sm lg:justify-self-end">
+              <p className="text-[13px] leading-[1.8] text-[#858179] sm:text-[14px]">
+                {chapter.description}
+              </p>
+            </div>
+          </motion.div>
+        </div>
+      </motion.div>
+    </section>
   );
 }

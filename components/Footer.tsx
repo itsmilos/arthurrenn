@@ -53,7 +53,7 @@ export default function Footer() {
             </div>
 
             <motion.a
-              href="#purchase"
+              href="#truth"
               whileHover={{ y: -4 }}
               whileTap={{ scale: 0.98 }}
               className="group relative inline-flex h-16 w-full items-center justify-center overflow-hidden border border-[#a89577]/40 px-8 sm:w-auto"
@@ -91,17 +91,6 @@ export default function Footer() {
               A book about perception, influence, belief, consciousness, and the
               invisible structures shaping the reality we experience.
             </p>
-
-            <div className="mt-7 flex items-center gap-3">
-              <motion.a
-                href="mailto:contact@arthurrenn.com"
-                whileHover={{ y: -3 }}
-                aria-label="Email"
-                className="flex h-9 w-9 items-center justify-center border border-white/[0.1] text-[#77736b] transition-colors hover:border-[#a89577]/50 hover:text-[#a89577]"
-              >
-                <Mail size={14} strokeWidth={1.2} />
-              </motion.a>
-            </div>
           </div>
 
           <div>
@@ -145,7 +134,7 @@ export default function Footer() {
             </p>
 
             <a
-              href="#purchase"
+              href="#truth"
               className="mt-7 inline-flex items-center gap-2 text-[9px] uppercase tracking-[0.28em] text-[#a89577] transition-colors hover:text-[#c8b89a]"
             >
               Get the book

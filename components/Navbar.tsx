@@ -16,14 +16,14 @@ export default function Navbar() {
 
         <nav className="hidden items-center gap-10 md:flex">
           <Link
-            href="#about"
+            href="/#about"
             className="text-[10px] uppercase tracking-[0.25em] text-white/35 transition hover:text-[#eeeae2]"
           >
             About
           </Link>
 
           <Link
-            href="#reviews"
+            href="/#reviews"
             className="text-[10px] uppercase tracking-[0.25em] text-white/35 transition hover:text-[#eeeae2]"
           >
             Reviews

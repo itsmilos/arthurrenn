@@ -35,7 +35,7 @@ export default function ProductPage() {
   return (
     <>
       <Script
-        src="https://westonrenn.gumroad.com/l/fctjs"
+        src="https://gumroad.com/js/gumroad.js"
         strategy="afterInteractive"
       />
 

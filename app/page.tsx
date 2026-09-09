@@ -4,7 +4,7 @@ import BehindTheScript from "@/components/BehindTheScript";
 import BookChapter from "@/components/BookChapter";
 import FacebookPost from "@/components/FacebookPost";
 import Reviews from "@/components/Reviews";
-import Footer from "@/components/Footer";
+import { Analytics } from "@vercel/analytics/next";
 
 export default function Home() {
   return (
@@ -15,6 +15,7 @@ export default function Home() {
       <BookChapter />
       <Reviews />
       <FacebookPost />
+      <Analytics />
     </>
   );
 }

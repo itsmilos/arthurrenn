@@ -84,7 +84,7 @@ export const metadata: Metadata = {
       "What if the reality you know was never the whole story? Discover Reality Before The Script by Arthur Renn.",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/og-image.webp",
         width: 1200,
         height: 630,
         alt: "Reality Before The Script - Arthur Renn",
